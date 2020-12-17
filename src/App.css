@@ -1,38 +1,107 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
+
+
+.main-container{
+  width:50vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 50px;
+  grid-column-gap:70px;
+}
+.left-grid{
+  border-radius: 10px;
+  height:60vh;
+  width:90%;
+  background-color: white;
+  border: 2px solid black;
+  font-family: 'Anonymous Pro', monospace;
+ display: flex;;
+  padding:20px ;
+flex-direction: column;
+ 
+}
+.calculate-class{
+  flex: 75%;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-column-gap: 20px;
+  grid-row-gap:20px;
   text-align: center;
+ justify-content: center;
+}
+.result-div{
+  flex:25%;
+  padding:20px ;
+}
+.empty{
+  background-color: white;
+}
+.left-card{
+  background-color: #F1F0F1;
+  border-radius: 10px;
+  font-size: 50px;
+padding-top: 30%;
+}
+.hover{
+  background-color: green;
+}
+hr{
+  border:2px solid black;
+}
+.result{
+  text-align: right;
+  font-size: 70px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.right-grid{
+  width:80%;
+  height:40vh;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-row-gap:40px;
+  align-content: center;
+  justify-content: right;
+  height:60vh;
+  font-family: 'Anonymous Pro', monospace;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.numbers{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-column-gap:20px;
+  grid-row-gap:20px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+.symbols{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% ;
+  grid-column-gap:20px;
+  grid-row-gap:20px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card{
+  border:2px solid black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px ;
+  transition: transform 0.5s;
 }
 
-.App-link {
-  color: #61dafb;
+.card:hover{
+  box-shadow: 5px 5px 5px black;
+  transform: translateY(-5px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+body {
+  background-color: #3db897;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%2330a687' fill-opacity='0.4' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E");
 }
