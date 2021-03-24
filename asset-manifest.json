@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/math-card-react/static/css/main.09794dfe.chunk.css",
+    "main.js": "/math-card-react/static/js/main.605aec35.chunk.js",
+    "main.js.map": "/math-card-react/static/js/main.605aec35.chunk.js.map",
+    "runtime-main.js": "/math-card-react/static/js/runtime-main.d7f9bacc.js",
+    "runtime-main.js.map": "/math-card-react/static/js/runtime-main.d7f9bacc.js.map",
+    "static/js/2.ddb69eca.chunk.js": "/math-card-react/static/js/2.ddb69eca.chunk.js",
+    "static/js/2.ddb69eca.chunk.js.map": "/math-card-react/static/js/2.ddb69eca.chunk.js.map",
+    "index.html": "/math-card-react/index.html",
+    "static/css/main.09794dfe.chunk.css.map": "/math-card-react/static/css/main.09794dfe.chunk.css.map",
+    "static/js/2.ddb69eca.chunk.js.LICENSE.txt": "/math-card-react/static/js/2.ddb69eca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7f9bacc.js",
+    "static/js/2.ddb69eca.chunk.js",
+    "static/css/main.09794dfe.chunk.css",
+    "static/js/main.605aec35.chunk.js"
+  ]
+}
